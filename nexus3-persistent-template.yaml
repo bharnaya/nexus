@@ -143,6 +143,7 @@ objects:
   spec:
     accessModes:
     - ReadWriteOnce
+    storageClassName: managed-nfs-storage 
     resources:
       requests:
         storage: ${VOLUME_CAPACITY}
