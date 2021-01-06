@@ -128,6 +128,7 @@ objects:
       app: ${SERVICE_NAME}
     name: ${SERVICE_NAME}
   spec:
+    host: nexus.apps.nonprod.iciciltd.com
     port:
       targetPort: 8081-tcp
     to:
